@@ -1,0 +1,134 @@
+.lesson {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.lesson-header {
+  margin-bottom: 2rem;
+}
+
+.back-link {
+  display: inline-block;
+  color: #3182ce;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.lesson-title-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.lesson-icon {
+  font-size: 3rem;
+}
+
+.lesson-title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.lesson-title-es {
+  margin: 0.25rem 0 0 0;
+  font-size: 1.125rem;
+  color: #718096;
+  font-style: italic;
+}
+
+.lesson-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.lesson-section {
+  /* spacing handled by gap */
+}
+
+.section-title {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.instructions-text {
+  margin: 0;
+  line-height: 1.7;
+  color: #4a5568;
+  background: #f7fafc;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+}
+
+.lesson-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.complete-btn {
+  padding: 0.75rem 1.5rem;
+  background: #48bb78;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.complete-btn:hover {
+  background: #38a169;
+}
+
+.return-btn {
+  padding: 0.75rem 1.5rem;
+  background: white;
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.return-btn:hover {
+  background: #f7fafc;
+  border-color: #cbd5e0;
+}
+
+.lesson-complete-status {
+  padding: 0.75rem 1.5rem;
+  background: #c6f6d5;
+  color: #22543d;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.lesson-not-found {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.lesson-not-found h2 {
+  margin: 0 0 1rem 0;
+  color: #2d3748;
+}
