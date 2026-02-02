@@ -5,6 +5,9 @@ export const scenarios = [
     titleEs: "En el Restaurante",
     description: "Learn to order food and drinks, ask for the bill, and make reservations.",
     icon: "🍽️",
+    assistantRole: "a friendly waiter at a casual restaurant",
+    learnerRole: "a customer ordering a meal",
+    starterMessage: "¡Hola! Bienvenido/a. ¿Tiene una reservación o desea una mesa?",
     vocabulary: [
       { spanish: "la carta", english: "the menu" },
       { spanish: "la cuenta", english: "the bill" },
@@ -21,6 +24,9 @@ export const scenarios = [
     titleEs: "En el Aeropuerto",
     description: "Navigate check-in, security, and boarding with essential travel vocabulary.",
     icon: "✈️",
+    assistantRole: "an airline check-in agent",
+    learnerRole: "a traveler checking in for a flight",
+    starterMessage: "Buenos días. ¿Puedo ver su pasaporte y su itinerario, por favor?",
     vocabulary: [
       { spanish: "el vuelo", english: "the flight" },
       { spanish: "la puerta de embarque", english: "the boarding gate" },
@@ -37,6 +43,9 @@ export const scenarios = [
     titleEs: "De Compras",
     description: "Ask for prices, sizes, and colors while shopping for clothes and goods.",
     icon: "🛍️",
+    assistantRole: "a helpful store clerk",
+    learnerRole: "a customer shopping for clothes",
+    starterMessage: "¡Hola! ¿En qué puedo ayudarle hoy?",
     vocabulary: [
       { spanish: "el precio", english: "the price" },
       { spanish: "la talla", english: "the size" },
@@ -53,6 +62,9 @@ export const scenarios = [
     titleEs: "En el Médico",
     description: "Describe symptoms, understand diagnoses, and discuss treatments.",
     icon: "🏥",
+    assistantRole: "a doctor conducting a consultation",
+    learnerRole: "a patient describing symptoms",
+    starterMessage: "Hola, soy el/la doctor/a. ¿Qué le duele y desde cuándo?",
     vocabulary: [
       { spanish: "el dolor", english: "the pain" },
       { spanish: "la fiebre", english: "the fever" },
@@ -69,6 +81,9 @@ export const scenarios = [
     titleEs: "Pidiendo Direcciones",
     description: "Learn to ask for and understand directions to get around town.",
     icon: "🗺️",
+    assistantRole: "a local resident giving directions",
+    learnerRole: "a visitor asking for directions",
+    starterMessage: "Hola, claro. ¿A dónde necesita ir?",
     vocabulary: [
       { spanish: "girar", english: "to turn" },
       { spanish: "a la derecha", english: "to the right" },

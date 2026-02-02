@@ -16,6 +16,27 @@
   border-bottom: 1px solid #e2e8f0;
 }
 
+.chat-status {
+  padding: 0.5rem 1.25rem 0;
+  font-size: 0.8rem;
+  color: #718096;
+}
+
+.chat-error {
+  margin: 0.5rem 1.25rem 0;
+  padding: 0.5rem 0.75rem;
+  background: #fff5f5;
+  color: #c53030;
+  border: 1px solid #fed7d7;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+.chat-typing {
+  font-style: italic;
+  opacity: 0.8;
+}
+
 .chat-messages {
   flex: 1;
   overflow-y: auto;

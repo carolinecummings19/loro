@@ -7,8 +7,9 @@ export function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-brand">
-        <span className="navbar-logo">🇪🇸</span>
-        <span className="navbar-title">Loro</span>
+        <span className="navbar-title">
+          <span className="navbar-title-text">Loro</span>
+        </span>
       </Link>
       <div className="navbar-links">
         <Link

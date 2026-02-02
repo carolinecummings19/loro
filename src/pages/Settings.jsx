@@ -11,7 +11,9 @@ export function Settings() {
 
   const handleSave = (e) => {
     e.preventDefault();
-    setApiKey(inputValue);
+    const trimmedValue = inputValue.trim();
+    setInputValue(trimmedValue);
+    setApiKey(trimmedValue);
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   };

@@ -1,88 +1,112 @@
-# Loro - Spanish Learning App
+# Loro — Spanish Learning App
 
-A frontend-only Spanish learning web app built with React + Vite. Practice real-world Spanish conversations through scenario-based lessons.
+Loro is a scenario‑based Spanish practice app built with React and Vite. It helps learners practice real‑world conversations through guided lessons, vocabulary lists, and AI‑powered chat.
 
-## Features
+## Highlights
 
-- **5 Scenario-based Lessons**: Restaurant, Airport, Shopping, Doctor, and Directions
-- **Vocabulary Lists**: Essential words and phrases for each scenario
-- **Chat UI Placeholder**: Ready for LLM integration
-- **Progress Tracking**: Lesson completion stored in localStorage
-- **Settings Page**: Store your LLM API key securely in localStorage
-- **Clean, Modern UI**: Simple and responsive design
+- Scenario‑based lessons (restaurant, airport, shopping, doctor, directions)
+- Vocabulary support tailored to each scenario
+- AI chat with prompt engineering and roleplay guidance
+- Progress tracking stored locally in the browser
+- Simple, modern UI built with custom CSS
+
+## Screenshots
+
+Add screenshots by replacing the image links below.
+
+![Home](docs/images/home.png)
+
+
+![Lesson](docs/images/lesson.png)
+
+
+![Chat](docs/images/chat.png)
+
+
+![Settings](docs/images/settings.png)
+
+
+## Live Demo
+
+If you host this app, add the URL here.
+
+- Demo: https://example.com
 
 ## Getting Started
 
-### Prerequisites
+### Requirements
 
-- Node.js 18+ 
+- Node.js 18+
 - npm
 
-### Installation
+### Install
 
 ```bash
 npm install
 ```
 
-### Development
+### Run locally
 
 ```bash
 npm run dev
 ```
 
-### Build for Production
+### Build
 
 ```bash
 npm run build
 ```
 
-### Preview Production Build
+### Preview production build
 
 ```bash
 npm run preview
 ```
 
-## GitHub Pages Deployment
+## Configuration
 
-This app is configured for GitHub Pages deployment. The `vite.config.js` sets the base path to `/loro/`.
+### API key
 
-To deploy:
+The app uses a user‑provided API key stored locally in the browser under `llmApiKey`.
 
-1. Build the project: `npm run build`
-2. The `dist` folder contains the production build
-3. Deploy the `dist` folder to GitHub Pages
+### localStorage keys
+
+- `completedLessons`: Array of completed lesson IDs
+- `llmApiKey`: LLM API key stored in the browser
 
 ## Project Structure
 
 ```
 src/
-├── components/       # Reusable UI components
-│   ├── ChatUI.jsx   # Chat interface placeholder
-│   ├── Navbar.jsx   # Navigation bar
-│   ├── ScenarioCard.jsx # Lesson card component
-│   └── VocabList.jsx    # Vocabulary display
+├── components/
+│   ├── ChatUI.jsx
+│   ├── Navbar.jsx
+│   ├── ScenarioCard.jsx
+│   └── VocabList.jsx
 ├── data/
-│   └── scenarios.js  # Lesson content and vocabulary
+│   └── scenarios.js
 ├── hooks/
-│   └── useLocalStorage.js # Custom hooks for localStorage
+│   └── useLocalStorage.js
 ├── pages/
-│   ├── Home.jsx     # Home page with scenario cards
-│   ├── Lesson.jsx   # Individual lesson page
-│   └── Settings.jsx # Settings page for API key
-├── App.jsx          # Main app with routing
-├── App.css          # App-level styles
-├── index.css        # Global styles
-└── main.jsx         # Entry point
+│   ├── Home.jsx
+│   ├── Lesson.jsx
+│   └── Settings.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
 ```
 
-## localStorage Keys
+## Deployment (GitHub Pages)
 
-- `completedLessons`: Array of completed lesson IDs
-- `llmApiKey`: User's LLM API key (stored securely in browser)
+This app is configured for GitHub Pages. The base path is set to `/loro/` in `vite.config.js`.
 
-## Technologies
+1. Build: `npm run build`
+2. Deploy the `dist` folder to GitHub Pages
+
+## Tech Stack
 
 - React 19
 - Vite 7
 - React Router 7
-- CSS (no framework, clean custom styles)
+- CSS (custom)

@@ -51,7 +51,7 @@ export function Lesson() {
         </section>
 
         <section className="lesson-section">
-          <ChatUI scenarioTitle={scenario.title} />
+          <ChatUI scenario={scenario} />
         </section>
 
         <div className="lesson-actions">

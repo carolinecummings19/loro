@@ -17,14 +17,24 @@
   text-decoration: none;
 }
 
-.navbar-logo {
-  font-size: 1.5rem;
-}
-
 .navbar-title {
   font-size: 1.25rem;
   font-weight: 700;
   color: #1a202c;
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar-title-text {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+  background: linear-gradient(120deg, #2563eb, #7c3aed, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 14px rgba(124, 58, 237, 0.25);
 }
 
 .navbar-links {
