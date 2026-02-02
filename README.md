@@ -11,26 +11,17 @@ Loro is a scenario‑based Spanish practice app built with React and Vite. It he
 - Simple, modern UI built with custom CSS
 
 ## Screenshots
+### Home Screen
+<img width="1400" height="697" alt="Screenshot 2026-02-02 at 12 07 02 AM" src="https://github.com/user-attachments/assets/1beea27b-6da0-4fb1-8625-2f5aaa194f71" />
 
-Add screenshots by replacing the image links below.
+### Lesson
+<img width="1399" height="688" alt="Screenshot 2026-02-02 at 12 08 17 AM" src="https://github.com/user-attachments/assets/dd875878-7a33-4ec5-8132-ffb5454624c3" />
 
-![Home](docs/images/home.png)
+### Chat
+<img width="1403" height="694" alt="Screenshot 2026-02-02 at 12 10 01 AM" src="https://github.com/user-attachments/assets/b8a98c8a-7355-48ae-b94a-c314f8e017a0" />
 
-
-![Lesson](docs/images/lesson.png)
-
-
-![Chat](docs/images/chat.png)
-
-
-![Settings](docs/images/settings.png)
-
-
-## Live Demo
-
-If you host this app, add the URL here.
-
-- Demo: https://example.com
+### Settings
+<img width="1403" height="693" alt="Screenshot 2026-02-02 at 12 11 11 AM" src="https://github.com/user-attachments/assets/3f8d25a3-411d-4c61-bb54-2ec889422158" />
 
 ## Getting Started
 
@@ -49,18 +40,6 @@ npm install
 
 ```bash
 npm run dev
-```
-
-### Build
-
-```bash
-npm run build
-```
-
-### Preview production build
-
-```bash
-npm run preview
 ```
 
 ## Configuration
@@ -96,13 +75,6 @@ src/
 ├── index.css
 └── main.jsx
 ```
-
-## Deployment (GitHub Pages)
-
-This app is configured for GitHub Pages. The base path is set to `/loro/` in `vite.config.js`.
-
-1. Build: `npm run build`
-2. Deploy the `dist` folder to GitHub Pages
 
 ## Tech Stack
 
